@@ -1,6 +1,6 @@
 # Image Gallery Application
 ## **Live Demo**
-Check out the live version of the Product List App here: [Live Demo](https://clinik-appointment.netlify.app/)
+Check out the live version of the Product List App here: [Live Demo](https://images-galleria.netlify.app/)
 
 ![Home Page video](./public/image.png)
 
@@ -18,7 +18,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/image-gallery.git
+   git clone https://github.com/recep-demir/image-gallery-app.git
 
 
 2. Navigate to the project directory
