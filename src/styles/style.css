@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('../img/foggy-4882290_1280.jpg'); 
+      
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem;
+}
+
+.morePicture button {
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: #1c58a7;
+  color: white;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  color: blue;
+}
+
+.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pictures .picture {
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 300px; 
+  position: relative;
+}
+
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 300px; 
+  border-radius: 10px; 
+  position: relative;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.pictures .picture .imageContainer:hover {
+  background-color: transparent;
+  padding:0; 
+  border: 5px solid #1c58a7; 
+}
+
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+
+.pictures .picture .imageContainer img:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.pictures .picture .info {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: center; 
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; 
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.pictures .picture .info :hover{
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
