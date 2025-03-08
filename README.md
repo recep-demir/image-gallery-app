@@ -35,6 +35,7 @@ npm install
 npm start
 
 ## Project Structure
+```
 image-gallery/
 ├── src/
 │   ├── components/
@@ -46,7 +47,7 @@ image-gallery/
 │   └── App.js                  # Main React component
 ├── package.json                # Project dependencies and configuration
 └── README.md                   # This file
-
+```
 
 ## Contribution
 Feel free to fork the project, make improvements, and submit pull requests.
